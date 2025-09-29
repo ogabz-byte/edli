@@ -12,13 +12,13 @@ const AcademyNavbar: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
-            <Link to="/academy" className="text-2xl font-bold text-indigo-600">
+            <Link to="/academy/home" className="text-2xl font-bold text-indigo-600">
               EDLI
             </Link>
 
             {/* Desktop Menu */}
             <div className="hidden md:flex space-x-6">
-              <Link to="/academy" className="hover:text-indigo-600">
+              <Link to="/academy/home" className="hover:text-indigo-600">
                 Home
               </Link>
               <Link to="/academy/courses" className="hover:text-indigo-600">
@@ -52,7 +52,7 @@ const AcademyNavbar: React.FC = () => {
           <div className="md:hidden bg-white shadow-md">
             <div className="flex flex-col space-y-2 px-4 py-4">
               <Link
-                to="/academy"
+                to="/academy/home"
                 className="hover:text-indigo-600"
                 onClick={() => setIsOpen(false)}
               >
@@ -93,7 +93,7 @@ const AcademyNavbar: React.FC = () => {
 
       {/* Fixed WhatsApp Button */}
       <a
-        href="https://wa.me/2348123456789"
+        href="https://wa.me/2349159754396"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition"
